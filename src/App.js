@@ -111,6 +111,7 @@ const App = () => {
             icon={<FaRobot />}
           >
             <h3 className="vertical-timeline-element-title">High School Experiences</h3>
+            <img src="/robot.png" alt="robot" className="timeline-image"/>
             <p>{content.highSchoolExperiences.substring(0, 300)}...</p>
             <button onClick={() => openModal(content.highSchoolExperiences)}>Learn More</button>
           </VerticalTimelineElement>
